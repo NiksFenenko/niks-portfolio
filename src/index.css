@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mntn-dark: #0b1d26;
+  --color-mntn-accent: #fbd33f;
+
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
+@layer base {
+  body {
+    @apply bg-mntn-dark text-white antialiased;
+    margin: 0;
+    font-family: var(--font-sans);
+  }
+}
